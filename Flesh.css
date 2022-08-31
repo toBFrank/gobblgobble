@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    margin: 10% auto;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: #eac747;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 9rem;
+    margin-bottom: 0.1rem;
+    letter-spacing: 3px;
+    color: black;
+    text-transform: lowercase;
+    text-align: center;
+}
+span {
+    background: linear-gradient(to right, #eac747, #e9b2a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff00;
+}
+
+#explain {
+    font-size: 2.5rem;
+    margin-bottom: 8rem;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.prompt {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    padding-left: 6rem;
+    text-transform: lowercase;
+}
+
+.inputBar {
+    border: 1px solid #e9b2a8;
+    background-color: #e9b2a8;
+    border-radius: 50px;
+    height: max-content;
+    width: 20%;
+    padding: 12px;
+    font-size: 2rem;  
+    overflow-x: auto;  
+    font-family: 'Josefin Sans', sans-serif;
+    transition: width 0.7s;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+    color: black;
+
+
+}
+
+.inputBar::placeholder {
+    color: #b9786d;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0.50;
+}
+
+#ingredientInput {
+    border: 1px solid #eac747;
+    background-color: #eac747;
+    margin-bottom: 16rem;
+}
+
+#ingredientInput::placeholder {
+    color: #796108a3;
+}
+
+.inputBar:hover {
+    background: linear-gradient(to right, #eac747, #e9b2a8);
+    border: none;
+    color: #796108a3; 
+}
+
+.inputBar:hover::placeholder {
+    color: #796108; 
+}
+
+.inputBar:focus {
+    background: linear-gradient(to right, #eac747, #e9b2a8);
+    border: none;
+    width: 40%;
+    color: #796108a3; 
+    outline: 0px;
+}
+.inputBar::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+.inputBar:focus::placeholder {
+    color: #796108a3; 
+}
+
+#locationInput:visited {
+    color: #b9786d; 
+}
+
+#ingredientInput:visited {
+    color: #796108a3;
+}
+
+.weather {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+.foodName {
+    color: black;
+    padding-left: 6rem;
+    margin-left: 6rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: #e9b2a8;
+    border-radius: 50px;
+    height: max-content;
+    width: max-content;
+    padding: 1%;
+}
+
+.foodPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 70px;
+    margin-bottom: 9rem;
+    transition: width 0.7s;
+    border: 1rem solid #eac747;
+}
+
+.foodPic:hover {
+    width: 30%;
+    border-color: #e9b2a8;
+}
