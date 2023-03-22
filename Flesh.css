@@ -71,7 +71,7 @@ span {
 #ingredientInput {
     border: 1px solid #eac747;
     background-color: #eac747;
-    margin-bottom: 16rem;
+    margin-bottom: 8rem;
 }
 
 #ingredientInput::placeholder {
